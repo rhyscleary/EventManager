@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class BackendServerApplication
+class UserApplication
 
 fun main(args: Array<String>) {
-	runApplication<BackendServerApplication>(*args)
+	runApplication<UserApplication>(*args)
 }
